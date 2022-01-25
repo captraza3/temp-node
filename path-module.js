@@ -1,0 +1,7 @@
+const path = require('path')
+console.log(path.sep)
+const filename = path.join('content','text.txt')
+console.log(filename)
+const base = path.basename(filename)
+console.log(base)
+console.log(path.resolve(__dirname,'content','test.txt'))
